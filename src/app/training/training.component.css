@@ -1,0 +1,27 @@
+/* Container Styling */
+.training-container {
+    background-color: #f4f4f4; /* Light background for the container */
+    padding: 30px; /* Added padding for better spacing */
+    margin-bottom: 30px;
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+    text-align: center; /* Centered content */
+  }
+  
+  /* Title Styling */
+  .training-container h1 {
+    font-size: 2.5em;
+    color: #333; /* Dark text color for readability */
+    margin-bottom: 20px;
+    font-weight: bold;
+  }
+  
+  /* Description Styling */
+  .training-container p {
+    font-size: 1.2em;
+    color: #555; /* Slightly lighter gray for description */
+    margin-bottom: 20px;
+    line-height: 1.6; /* Improve readability with a bit more line spacing */
+  }
+  
+  

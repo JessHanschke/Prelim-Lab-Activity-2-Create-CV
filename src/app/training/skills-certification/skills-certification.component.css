@@ -1,0 +1,67 @@
+/* General Section Styling */
+.resume-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 8px;
+  }
+  
+  /* Title styling */
+  .resume-section h2 {
+    font-size: 2em;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;
+  }
+  
+  /* Styling for each certification */
+  .certification {
+    margin-bottom: 20px;
+    padding: 10px;
+    border-left: 4px solid #e74c3c; /* Dark Red border */
+    background-color: #f4f4f4;
+  }
+  
+  .certification h3 {
+    font-size: 1.6em;
+    color: #c0392b; /* Red color for title */
+    margin-bottom: 8px;
+  }
+  
+  .certification p {
+    font-size: 1.1em;
+    color: #555;
+    margin-bottom: 6px;
+  }
+  
+  .certification p strong {
+    color: #333;
+  }
+  
+  /* Hover Effect */
+  .certification:hover {
+    background-color: #fadbd8; /* Light red hover background */
+    padding-left: 20px;
+    transition: padding-left 0.2s ease;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .resume-section {
+      padding: 15px;
+    }
+  
+    .resume-section h2 {
+      font-size: 1.8em;
+    }
+  
+    .certification h3 {
+      font-size: 1.3em;
+    }
+  
+    .certification p {
+      font-size: 1em;
+    }
+  }
+  

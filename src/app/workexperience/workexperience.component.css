@@ -1,0 +1,51 @@
+/* Work Experience Component Styling */
+.workexperience {
+    padding: 20px;
+    background: #9B2424; /* Brick Red */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .workexperience h2 {
+    color: #EEDADA; /* Light Color for Text */
+    font-size: 2.2em;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #B22222; /* Darker Red Border */
+  }
+  
+  .workexperience .job {
+    padding: 20px;
+    background: #8B0000; /* Dark Red */
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    margin-bottom: 20px;
+  }
+  
+  .workexperience h3 {
+    color: #EEDADA; /* Light Text */
+    font-size: 1.8em;
+    margin-bottom: 10px;
+  }
+  
+  .workexperience ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .workexperience li {
+    color: #F8F8F8; /* Light Text for List Items */
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
+  .workexperience li strong {
+    font-weight: bold;
+    color: #F8F8F8; /* Light Text */
+  }
+  
+  .workexperience ul ul {
+    margin-top: 10px;
+  }  

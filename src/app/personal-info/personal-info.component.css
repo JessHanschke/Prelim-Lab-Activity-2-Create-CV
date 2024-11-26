@@ -1,45 +1,42 @@
-/* General Body Styling */
 body {
     font-family: 'Arial', sans-serif;
-    background-color: #D3D3D3; /* Light Gray Background */
+    background-color: #D3D3D3; 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     color: #333;
   }
   
-  /* Main container for the entire resume */
+
   .resume-container {
     max-width: 1200px;
     margin: 40px auto;
     padding: 40px;
-    background: linear-gradient(135deg, #8B0000, #9B2424); /* Dark Red to Brick Red */
+    background: linear-gradient(135deg, #8B0000, #9B2424); 
     border-radius: 20px;
     box-shadow: 0 10px 40px rgba(0, 0, 0, 0.1);
-    color: #EEDADA; /* Light Color for Text */
+    color: #EEDADA; 
   }
   
-  /* Header Section */
+
   .header {
     text-align: center;
     color: #EEDADA;
     padding-bottom: 20px;
-    border-bottom: 4px solid #B22222; /* Darker Red Accent */
+    border-bottom: 4px solid #B22222;
   }
-  
-  /* Profile Image Styling */
+
   .profile-image {
     width: 150px;
     height: 150px;
     border-radius: 50%;
     object-fit: cover;
     margin-bottom: 20px;
-    border: 5px solid #B22222; /* Darker Red Border */
+    border: 5px solid #B22222; 
     box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease;
   }
-  
-  /* Flexbox Layout for Sections */
+
   .resume-sections {
     display: flex;
     flex-wrap: wrap;
@@ -50,7 +47,7 @@ body {
     flex: 1;
     min-width: 280px;
     padding: 20px;
-    background: #9B2424; /* Brick Red */
+    background: #9B2424;
     border-radius: 15px;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
@@ -68,7 +65,7 @@ body {
     font-weight: bold;
     margin-bottom: 10px;
     text-align: center;
-    border-bottom: 2px solid #B22222; /* Darker Red Border */
+    border-bottom: 2px solid #B22222; 
   }
   
   .resume-section ul {
@@ -85,19 +82,19 @@ body {
   
   .resume-section li::before {
     content: "►";
-    color: #B22222; /* Darker Red Arrow */
+    color: #B22222; 
     position: absolute;
     left: -20px;
     top: 0;
   }
   
-  /* Footer Section for References */
+
   .footer {
     text-align: center;
     margin-top: 40px;
     color: #F8F8F8;
     padding-top: 20px;
-    border-top: 4px solid #B22222; /* Darker Red Border */
+    border-top: 4px solid #B22222; 
   }
   
   .footer p {
@@ -113,6 +110,4 @@ body {
   .footer a:hover {
     text-decoration: underline;
   }
-  
-  
   

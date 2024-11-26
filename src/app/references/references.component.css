@@ -1,0 +1,55 @@
+/* References Section Styling */
+.resume-section {
+    padding: 30px;
+    background-color: #F4F4F4;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+  }
+  
+  .resume-section h2 {
+    font-size: 2.2em;
+    color: #4A4A4A;
+    text-align: center;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #9B2424;
+  }
+  
+  .reference-cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .reference-card {
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    padding: 20px;
+    width: 300px;
+    margin-bottom: 20px;
+    text-align: left;
+    color: #4A4A4A;
+  }
+  
+  .reference-card h3 {
+    font-size: 1.5em;
+    color: #9B2424;
+    margin: 0;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #9B2424;
+  }
+  
+  .reference-card p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+  }
+  
+  .reference-card strong {
+    color: #8B0000;
+  }
+  
+  
+  
